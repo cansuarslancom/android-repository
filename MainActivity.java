@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
         listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent1 = new Intent(MainActivity.this, Detail.class);
-
+               
                 getPosition(position);
 
             }
